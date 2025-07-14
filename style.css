@@ -359,13 +359,7 @@ margin-bottom: 20px;
   margin: 0 auto 30px;
 }
 
-.footer-links {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
+
 
 .footer-links a {
   text-decoration: none;
