@@ -1,0 +1,374 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style*/
+.text-primary{
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Nav style */
+.hero{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner-greetings{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    width: 100%;
+    height: 698px;
+    margin-top: -200px;
+    padding: 0 20px;
+}
+/* Section Layout */
+.section{
+  margin: 0 auto;
+  padding: 80px 20px;
+  max-width: 1140px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  text-align: left;
+}
+.section-title{
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-discription{
+color: rgba(37, 36, 50, 0.5);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text-content{
+  flex: 1;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-right: 20px;
+}
+.image-content{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-content img{
+max-width: 100%;
+height: 328px;  
+border-radius: 48px;
+}
+.container {
+  background-color: #e7e8fe;
+  border-radius: 24px;
+  padding: 40px 20px;
+  max-width: 1140px;
+  max-height: 360px;
+  margin: 0 auto;
+  padding: 25px 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.container h2 {
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 38px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.stat {
+  margin: 10px 20px;
+}
+.stat {
+  margin: 10px 20px;
+}
+.value {
+  margin-top: -20px;
+  font-size: 80px;
+  font-weight: bold;
+  max-width: 162px;
+  color: #4a4aff;
+}
+.label {
+  font-size: 20px;
+  color: #666;
+  margin-top: -50px;
+}
+.section-title.center{
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0%;
+text-align: center;
+}
+  .testimonials {
+    padding: 80px 20px;
+    background-color: transparent;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    width: 300px;
+  }
+  
+  .stars {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .stars img {
+    height: 18px;
+  }
+  
+  .testimonial h3 {
+    margin: 15px 0 10px;
+    font-size: 18px;
+  }
+  
+  .testimonial p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .reviewer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .reviewer img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+.content-section {
+  display: flex;
+  justify-content: center;
+  max-width: 1140px;
+  height: 629px;
+  left: 150px;
+  top: 2969px;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #FFFFFF;
+  flex-wrap: wrap;
+  gap: 233px;
+  margin: 0 auto;
+
+}
+
+.content-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.container-title {
+  color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 80px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.colmn {
+  flex: 1;
+  max-width: 497px;
+  gap: 19px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form h4 {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+form input[type="text"],
+form textarea {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form input[type="button"] {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="button"]:hover {
+  background-color: #3e38d0;
+}
+.footer {
+  max-width: 1440px;
+  height: 428px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #FFFFFF;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 0 auto;
+  max-width: 291px;
+  height: 121px;
+  color: #4E47FF;
+font-family: Inter;
+font-size: 100px;
+font-weight: 900;
+line-height: 121px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.footer-description {
+  color: #8e8ea0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #8e8ea0;
+  font-weight: 500;
+}
